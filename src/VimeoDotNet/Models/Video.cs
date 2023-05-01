@@ -98,7 +98,7 @@ namespace VimeoDotNet.Models
         /// Duration
         /// </summary>
         [PublicAPI]
-        [JsonProperty(PropertyName = "duration")]
+        [JsonProperty(PropertyName = "duration", NullValueHandling = NullValueHandling.Ignore)]
         public int Duration { get; set; }
 
         /// <summary>
